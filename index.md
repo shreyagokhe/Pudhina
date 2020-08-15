@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Hello
-subtitle: My name is Pudhina
+title: Hello, welcome to my portfolio!
+subtitle: My name is Shreya Gokhe
 sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/pudhina.jpg' | prepend: site.baseurl }}" id="about-img">
+<img src="{{ '/assets/img/pudhina.png' | prepend: site.baseurl }}" id="about-img">
 
 <div id="describe-text">
-	<p>A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability</p>
-	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p>
+	<p>A Master's student from Stevens Institute of Technology, NJ</p>
+	<p>Download my resume</p>
 </div>

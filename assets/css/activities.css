@@ -106,7 +106,9 @@
     font-weight: 400;
     font-size: 75%;
     color: #828282; }
-
+	
+	
+	
 /* =Post teasers *//*************************************************************/
   .list-posts {
     list-style-type: none;
@@ -137,24 +139,6 @@
     color: #333333;
     text-align: center; }
 
-/* =Post page *//*************************************************************/
-  .about {
-    color: #828282;
-    text-align: center;
-    line-height: 24px; }
-
-  .about__devider {
-    font-size: 90%;
-    letter-spacing: 9.09px; 
-	text-align: center;}
-	
-  .about__text {
-    font-size: 70%; }
-
-  .center-text {
-    text-align: center;
-  }
-
 /* =Page navigation *//*************************************************************/
   .PageNavigation {
     display: block;
@@ -172,21 +156,8 @@
   .PageNavigation .next {
     text-align: right;
   }
-
-/* =Main Page *//*************************************************************/
-  #about-img {
-    border-radius: 13%;
-    max-width: 125px;
-    margin: auto;
-    margin-bottom: 3%;
-  }
-
-  #describe-text {
-      display: block;
-      text-align: center;
-      width: 100%; }
-
-/* =Small screen *//*************************************************************/
+  
+  /* =Small screen *//*************************************************************/
   @media (max-width: 500px) {
     p, ul, ol, dl {
       font-size: 100%;
@@ -455,29 +426,5 @@
   text-align: center;
   font-size: 70%;
   height: 30px;
+  
 }
-	.btn{
-	display:inline-block;
-padding:0.35em 1.2em;
-border:0.1em solid #1abc9c;
-margin:0 0.3em 0.3em 0;
-border-radius:0.12em;
-box-sizing: border-box;
-text-decoration:none;
-font-family:'Quicksand',sans-serif;
-font-weight:300;
-color:#1abc9c;
-text-align:center;
-transition: all 0.2s;
-}
-.btn:hover{
-color:#000000;
-background-color:#1abc9c;
-}
-@media all and (max-width:30em){
-.btn{
-display:block;
-margin:0.4em auto;
-}
-}
-	
